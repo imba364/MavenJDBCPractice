@@ -1,8 +1,8 @@
-/Users/bauervitaly/IdeaProjects/MavenProjectKataPP/src/main/java/jm/task/core/jdbc/Main.java
-/Users/bauervitaly/IdeaProjects/MavenProjectKataPP/src/main/java/jm/task/core/jdbc/dao/UserDao.java
-/Users/bauervitaly/IdeaProjects/MavenProjectKataPP/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java
-/Users/bauervitaly/IdeaProjects/MavenProjectKataPP/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java
-/Users/bauervitaly/IdeaProjects/MavenProjectKataPP/src/main/java/jm/task/core/jdbc/model/User.java
-/Users/bauervitaly/IdeaProjects/MavenProjectKataPP/src/main/java/jm/task/core/jdbc/service/UserService.java
-/Users/bauervitaly/IdeaProjects/MavenProjectKataPP/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java
-/Users/bauervitaly/IdeaProjects/MavenProjectKataPP/src/main/java/jm/task/core/jdbc/util/Util.java
+/Users/bauervitaly/IdeaProjects/MavenJDBCPractice/src/main/java/jm/task/core/jdbc/util/Util.java
+/Users/bauervitaly/IdeaProjects/MavenJDBCPractice/src/main/java/jm/task/core/jdbc/model/User.java
+/Users/bauervitaly/IdeaProjects/MavenJDBCPractice/src/main/java/jm/task/core/jdbc/service/UserService.java
+/Users/bauervitaly/IdeaProjects/MavenJDBCPractice/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java
+/Users/bauervitaly/IdeaProjects/MavenJDBCPractice/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java
+/Users/bauervitaly/IdeaProjects/MavenJDBCPractice/src/main/java/jm/task/core/jdbc/dao/UserDao.java
+/Users/bauervitaly/IdeaProjects/MavenJDBCPractice/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java
+/Users/bauervitaly/IdeaProjects/MavenJDBCPractice/src/main/java/jm/task/core/jdbc/Main.java
