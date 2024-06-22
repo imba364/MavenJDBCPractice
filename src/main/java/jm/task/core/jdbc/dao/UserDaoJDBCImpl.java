@@ -3,10 +3,11 @@ package jm.task.core.jdbc.dao;
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.util.Util;
 
-import java.net.ConnectException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import static java.sql.DriverManager.getConnection;
 
 public class UserDaoJDBCImpl extends Util implements UserDao {
     public UserDaoJDBCImpl() {
@@ -26,7 +27,7 @@ public class UserDaoJDBCImpl extends Util implements UserDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        }
+    }
 
 
     @Override
@@ -41,7 +42,7 @@ public class UserDaoJDBCImpl extends Util implements UserDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        }
+    }
 
     @Override
     public void saveUser(String name, String lastName, byte age) throws SQLException {
@@ -69,7 +70,7 @@ public class UserDaoJDBCImpl extends Util implements UserDao {
                     connection.close();
                 }
             }
-        }
+    }
 
     public void removeUserById(long id) throws SQLException {
         Connection connection = null;
@@ -146,4 +147,5 @@ public class UserDaoJDBCImpl extends Util implements UserDao {
             }
         }
     }
-}
+    }
+
