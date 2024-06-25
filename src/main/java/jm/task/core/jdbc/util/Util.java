@@ -42,13 +42,13 @@ public class Util {
                 settings.put(Environment.URL, "jdbc:mysql://localhost:3306/KataProjectDB");
                 settings.put(Environment.USER, "root");
                 settings.put(Environment.PASS, "Qwertyasd4321");
-                settings.put(Environment.DIALECT, "MySQL");
+                settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
 
                 settings.put(Environment.SHOW_SQL, "true");
 
                 settings.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
 
-                settings.put(Environment.HBM2DDL_AUTO, "create-drop");
+                settings.put(Environment.HBM2DDL_AUTO, "update");
 
                 configuration.setProperties(settings);
                 configuration.addAnnotatedClass(User.class);
